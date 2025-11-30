@@ -1,13 +1,15 @@
 body{
   margin: 0px;
-  background-image: linear-gradient(to right, #807F85 , #46434F , #807F85);
+  background-image: linear-gradient(to right, #FFFFFF , #E6E6E6);
 
 }
 
 h5{
   display: inline;
-  color: white;
-  font-family: Comic Sans MS;
+
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
   font-size: 50px;
 }
 
@@ -15,13 +17,30 @@ h5{
   text-align: center;
   height: 75px;
   background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #46434F, #807F85 , #46434F);
+  background-image: linear-gradient(to right, #FFFFFF,#FFFFFF, #46434F);
 
 }
 
 #rgb{
-    margin: 5px;
-    padding: 175px;
-    background-color : rgb(255, 0, 0);
+    margin-left: 10%;
+    padding: 150px;
     text-align: center;
+    background-color : rgb(255, 255, 255);
+  
+}
+
+#rgb1{
+    color: #46434F;
+    margin-top: 10%;
+
+    font-size: 70px;
+    font-weight: 400;
+ 
+    font-family: "Barrio", system-ui;
+
+}
+#rgb2{
+
+    padding: 10px;
+
 }
