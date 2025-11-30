@@ -7,8 +7,8 @@ body{
 h5{
   display: inline;
 
-  font-family: "Barrio", system-ui;
-  font-weight: 400;
+  font-family: "Caveat", cursive;
+  font-weight: 500;
   font-style: normal;
   font-size: 50px;
 }
@@ -22,25 +22,27 @@ h5{
 }
 
 #rgb{
-    margin-left: 10%;
-    padding: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
-    background-color : rgb(255, 255, 255);
+    background-color : rgb(255, 255, 5);
   
 }
+#form1{
+text-align: center;
+    margin-top: 18px;
 
-#rgb1{
-    color: #46434F;
-    margin-top: 10%;
-
-    font-size: 70px;
-    font-weight: 400;
- 
-    font-family: "Barrio", system-ui;
 
 }
-#rgb2{
+#rgb1{
+    color: #46434F;
 
-    padding: 10px;
+
+
+
+ 
+  font-family: "Science Gothic", sans-serif;
 
 }
