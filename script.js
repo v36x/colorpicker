@@ -1,5 +1,5 @@
   function myfunc() {
-    let x = document.forms["myform"]["rgb1"].value;
+    let x = document.forms["myform"]["rgb2"].value;
 
     if (x === "") {
       alert("RGB value must be filled out");
@@ -11,3 +11,4 @@
 
     return false; // prevent form refresh
   }
+  
