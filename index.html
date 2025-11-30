@@ -4,6 +4,9 @@
     <title>Color Picker</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="color-circle.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,11 +17,11 @@
 </div>
 <form name="myform" onsubmit="return myfunc()">
   
-  <label for="rgb1">RGB:</label><br>
-  <input type="text" name="rgb1" id="rgb1" /><br><br>
+  <label for="rgb1" id="rgb1" >R G B</label>
+  <input type="text" name="rgb2" id="rgb2" />
 
   
-  <input type="submit" id="sub" value="Submit" />
+  <input type="submit" id="sub" value="Submit" /><br><br>
 </form>
 
 <div id="rgb"><p>RGB</p></div>
